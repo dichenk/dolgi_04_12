@@ -8,6 +8,3 @@ def test_get_val_empty():
 
 def test_get_val_none():
     assert get_val(None) == 'dadibdabdabda'
-
-def test_get_val_lot_of_arguments():
-    assert get_val(1, 2, 3, 4, 5) == 'dadibdabdabda'
